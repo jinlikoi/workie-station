@@ -1,0 +1,22 @@
+
+
+<body>
+    <div class="search">
+      <br>
+      <br>
+      
+      <input type="text" [(ngModel)]="keyword" (keyup)="doSearchEnter($event)"> <button (click)="doSearch()">Search</button>
+      
+      <hr>
+      Click on the word and re-search it. 
+      <ul>
+        <li *ngFor="let item of historyList; let key = index" (click)="doSearchAgain(item)" class="list">{{item}}<button (click)="deleteHistory(key)"  class = "delete">X</button></li>
+      </ul>
+    </div>
+      
+    <div class="areaBackground">
+        Test
+    </div>
+
+</body>
+

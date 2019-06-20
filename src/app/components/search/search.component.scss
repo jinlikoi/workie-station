@@ -1,0 +1,44 @@
+.search{
+    width: 400px;
+    margin: 20px auto;
+
+    input{
+        margin-bottom: 20px;
+        width: 315px;
+        height: 32px;
+    }
+    button{
+        height: 38px;
+        width: 80px;
+    }
+    li{
+        line-height: 25px;
+        margin: 2px;
+    }
+    .list{
+        text-decoration: underline;
+        color: white;
+    }
+    .delete{
+        height: 20px;
+        width: 30px;
+    }
+    ul{
+        width: 360px;
+        background-color: rgba(0,0,0,0.75);
+    }
+}
+
+
+.areaBackground{
+    width: 300px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 50px;
+    color: black;
+    background-color: rgba(0,0,0,0.5);
+}
+
+

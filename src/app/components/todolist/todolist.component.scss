@@ -1,0 +1,42 @@
+ul, input, div{
+    margin-bottom: 0px;
+}
+
+h2{
+    text-align: center;
+}
+
+.todolist{
+    width: 400px;
+    margin: auto auto;
+    margin-bottom: 0px;
+
+    h3{
+        margin: 0px;
+        margin-bottom: 0px;
+    }
+
+    .form_input{
+        margin-bottom: 10px;
+        width: 355px;
+        height: 32px;
+    }
+
+    li{
+        margin: 0px;
+        line-height: 30px;
+        margin-bottom: 0px;
+    }
+
+    button{
+        height: 38px;
+        margin-bottom: 0px;
+    }
+
+    .delete{
+        height: 20px;
+        width: 30px;
+        margin-bottom: 0px;
+    }
+
+}

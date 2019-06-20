@@ -1,0 +1,42 @@
+
+
+html{
+    background: url(src\assets\images\002.jpg);
+    background-repeat: no-repeat;
+    background-size: 110% 110%;
+    margin: -8px;
+    background-attachment: fixed;
+
+
+    header{
+        height: 44px;
+        line-height: 44px;
+    
+        display: inline-block;
+        margin-left: 50px;
+        color: black;
+        background-color: rgba(0,0,0,0.4);
+        a{
+    
+            color: #fff;
+    
+            padding: 10px 40px;
+        }
+    }
+    
+    body{
+        margin-bottom: 0px;
+    }
+
+    footer{
+        height: 40px; /*设定footer高度*/
+        position: absolute; /*设定footer绝对位置在底部*/
+        bottom: 0;
+        width: 100%; /*展开footer宽度*/
+        background-color: yellow;
+        line-height: 40px;
+    }
+
+    
+}
+
